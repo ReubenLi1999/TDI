@@ -2,12 +2,11 @@
 
 Time delay interferometry (TDI) is a post-processing algorithm for suppressing the laser frequency noise (LFN). 
 
-Space-based gravitational-wave detector data include the outputs of several interferometers, which can be expressed in relative frequency deviations. We denote the corresponding measurements as $s_{ij}(t)$ to conform to the official convention, where *i* is the index of the
-satellite hosting the optical bench, and *j* is the index of the sending spacecraft. In practice, we measure a discrete version of $s_{ij}$ with *N* samples spaced every $\tau_s$ seconds. Therefore, we can form a vector $s_{ij}(t)$ with *N* entries given by $s_{ij}(t_n)$, where the timestamps are $t_n=n\tau_s$, $n ∈[0,N-1]$. Hence, we have $\boldsymbol{s}_{ij}=(s_{ij}(t_0), ..., s_{ij}(t_{N-1}))^\intercal$. We will stick to the LISA example, where the detector is made of a constellation of three satellites, each of them carrying two optical benches on board. If we consider the science measurements only, then we have six measurements that we can stack into an *N × 6* matrix ***Y*** as  
+Space-based gravitational-wave detector data include the outputs of several interferometers, which can be expressed in relative frequency deviations. We denote the corresponding measurements as $s_{ij}(t)$ to conform to the official convention, where *i* is the index of the satellite hosting the optical bench, and *j* is the index of the sending spacecraft. In practice, we measure a discrete version of $s_{ij}$ with *N* samples spaced every $\tau_s$ seconds. Therefore, we can form a vector $s_{ij}(t)$ with *N* entries given by $s_{ij}(t_n)$, where the timestamps are $t_n=n\tau_s$, $n ∈[0,N-1]$. Hence, we have $\boldsymbol{s}_{ij}=(s_{ij}(t_0), ..., s_{ij}(t_{N-1}))^\intercal$. We will stick to the LISA example, where the detector is made of a constellation of three satellites, each of them carrying two optical benches on board. If we consider the science measurements only, then we have six measurements that we can stack into an *N × 6* matrix ***Y*** as  
 $$
 \boldsymbol{Y} \equiv\left(\boldsymbol{s}_{12}, \boldsymbol{s}_{23}, \boldsymbol{s}_{31}, \boldsymbol{s}_{13}, \boldsymbol{s}_{21}, \boldsymbol{s}_{32}\right)
 $$
-<img src="D:\lhsProgrammes\Projects_2022\TDI\image\image-20220526221002652.png" alt="image-20220526221002652" style="zoom:67%;" />
+<img src="..\image\image-20220526221002652.png" alt="image-20220526221002652" style="zoom:67%;" />
 
 Classical TDI algorithms operate in two steps. First, they compute **delayed** versions of discrete signals, interpolated at specific times depending on the light travel time delays along the constellation arms. In a second step, they combine these interpolated time series in such a way that laser noise terms vanish.  
 
@@ -60,4 +59,4 @@ Classical TDI algorithms operate in two steps. First, they compute **delayed** v
     \boldsymbol{\tilde{v}}_{23}^{m})]\\
     $$
     
-
+    Therefore, the transfer function
