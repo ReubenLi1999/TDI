@@ -6,12 +6,10 @@ This repository provides the simulation of six scientific measurements of a stat
 
   Three *TAIJI* satellites rotates around the Sun, and they form an equilateral triangle whose centre follows a heliocentric circular orbit, such that its position at any time *t* is given by
 
-  
-
   ![1](http://latex.codecogs.com/svg.latex?\boldsymbol{r}_0=(R \cos{\phi}_T, R \sin{\phi}_T, 0)^\intercal,)
-  
-  *Simulation of the six measurements is not an end-to-end version. NSSC, LISA-Node and LISA-Code would offer it.*
 
+  *Simulation of the six measurements is not an end-to-end version. NSSC, LISA-Node and LISA-Code would offer it.*
+  
 - **TDI-1.0**
 
   X, A, E, T; requiring the light travel time between two satellites
