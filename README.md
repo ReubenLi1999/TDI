@@ -4,12 +4,10 @@ This repository provides the simulation of six scientific measurements of a stat
 
 - **Simulation** ([Baghi](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.104.122001 ))
 
-  Three *TAIJI* satellites rotates around the Sun, and they form an equilateral triangle whose centre follows a heliocentric circular orbit, such that its position at any time *t* is given by
-
-  ![1](http://latex.codecogs.com/svg.latex?\boldsymbol{r}_0=(R \cos{\phi}_T, R \sin{\phi}_T, 0)^\intercal,)
+  Three *TAIJI* satellites rotates around the Sun, and they form an equilateral triangle whose centre follows a heliocentric circular orbit。
 
   *Simulation of the six measurements is not an end-to-end version. NSSC, LISA-Node and LISA-Code would offer it.*
-  
+
 - **TDI-1.0**
 
   X, A, E, T; requiring the light travel time between two satellites
@@ -20,7 +18,7 @@ This repository provides the simulation of six scientific measurements of a stat
 
 - **APCI** ([Baghi](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.104.122001 ))
 
-  The principal component of the Toeplitz matrix of the science measurements. Of course, SVD and PCA are the same from a mathematical point of view. Additionally, PCA for TDI gives us a hint that we can handle TDI from a probability perspective. When it comes to the missing data case, three possible solutions are given: **imputation, alternative and considering**. 
+  The principal component of the Toeplitz matrix of the science measurements. Not requiring the light travel time between two satellites. Of course, SVD and PCA are the same from a mathematical point of view. Additionally, PCA for TDI gives us a hint that we can handle TDI from a probability perspective. When it comes to the missing data case, three possible solutions are given: **imputation, alternative and considering**. 
 
   PPCA with EM algorithm may be promising; weight PCA is also worthy to try.
 
