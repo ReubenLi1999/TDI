@@ -4,7 +4,7 @@ This repository provides the simulation of six scientific measurements of a stat
 
 - **Simulation** ([Baghi](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.104.122001 ))
 
-  Three *TAIJI* satellites rotates around the Sun, and they form an equilateral triangle whose centre follows a heliocentric circular orbit。
+  Three *TAIJI* satellites rotates around the Sun, and they form an equilateral triangle whose centre follows a heliocentric circular orbit.
 
   *Simulation of the six measurements is not an end-to-end version. NSSC, LISA-Node and LISA-Code would offer it.*
 
