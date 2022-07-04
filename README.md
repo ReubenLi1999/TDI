@@ -1,4 +1,4 @@
-# Explore Time Delay Interferometry 
+# Explore Time Delay Interferometry 😆
 
 This repository provides the simulation of six scientific measurements of a static constellation of *TAIJI*,  the TDI-1 computation, the TDI-Infinity computation, the APCI computation and the corresponding sensitivity curves.
 
@@ -26,4 +26,17 @@ This repository provides the simulation of six scientific measurements of a stat
 
   Ok~ The equation used to compute the sensitivity curve is from WANGPANPAN(2020). **HOWEVER**, equations in the paper are inconsistent . 😅(HUST ~LoL~) Would try to compute the sensitivity curves from simulation.
 
+## Contact
+
+Email: jiangzemin2019@gmail.com
+
+😀 学术交流，赛高~~
+
+##  Acknowledgement
+
+Vallisneri和Baghi，听我说👂👂👂谢谢你🙏🙏🙏因为有你👉👉👉温暖了四季🌈🌈🌈谢谢你🙏🙏🙏感谢有你👉👉👉世界更美丽🌏🌏🌏我要谢谢你🙏🙏🙏因为有你👉👉👉爱常在心底💃💃💃谢谢你 🙏🙏🙏感谢有你🙇♂🙇♂🙇♂把幸福传递
+
+## 版权
+
 **未经允许，请勿转载~**
+
