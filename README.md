@@ -8,9 +8,9 @@ This repository provides the simulation of six scientific measurements of a stat
 
   
 
-  ```text
-  ![](http://latex.codecogs.com/svg.latex?\boldsymbol{r}_0=(R \cos{\phi}_T, R \sin{\phi}_T, 0)^\intercal,)
-  ```
+  ![1](http://latex.codecogs.com/svg.latex?\boldsymbol{r}_0=(R \cos{\phi}_T, R \sin{\phi}_T, 0)^\intercal,)
+  
+  *Simulation of the six measurements is not an end-to-end version. NSSC, LISA-Node and LISA-Code would offer it.*
 
 - **TDI-1.0**
 
