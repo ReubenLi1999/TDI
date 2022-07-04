@@ -24,7 +24,7 @@ This repository provides the simulation of six scientific measurements of a stat
 
 - **Sensitivity** ([Wang](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.103.063021))
 
-  Ok~ The equation used to compute the sensitivity curve is from WANGPANPAN(2020). **HOWEVER**, equations in the paper are inconsistent . 😅(HUST ~LoL~) Would try to compute the sensitivity curves from simulation.
+  Ok~ The equation used to compute the sensitivity curve is from WANGPANPAN(2021🤚). **HOWEVER**, equations in the paper are inconsistent . 😅(HUST ~LoL~, Taiqin DAMEI🙈) Would try to compute the sensitivity curves from simulation.
 
 ## Contact
 
