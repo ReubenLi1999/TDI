@@ -7,18 +7,18 @@ This repository provides the simulation of six scientific measurements of a stat
   [Baghi]: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.104.122001
 
   Three *TAIJI* satellites rotates around the Sun, and they form an equilateral triangle whose centre follows a heliocentric circular orbit, such that its position at any time *t* is given by
-  $$
-  \boldsymbol{r}_0=(R \cos{\phi}_T, R \sin{\phi}_T, 0)^\intercal,
-  $$
-  where $R=1$ A.U. is the distance between the Sun and the centre of the constellation, and $\phi_T$ is the flight path angle.
+
+  
+
+  ```text
+  ![](http://latex.codecogs.com/svg.latex?\boldsymbol{r}_0=(R \cos{\phi}_T, R \sin{\phi}_T, 0)^\intercal,)
+  ```
 
 - **TDI-1.0**
 
   X, A, E, T; requiring the light travel time between two satellites
 
-- **TDI-Infinity**
-
-  [Vallisneri]: https://arxiv.org/abs/2008.12343
+- **TDI-Infinity**([Vallisneri] (https://arxiv.org/abs/2008.12343 ))
 
   The null space of the design matrix; requiring the light travel time between two satellites
 
